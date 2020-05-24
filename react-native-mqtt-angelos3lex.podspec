@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.name = package[:name]
   s.version = package[:version]
   s.license = { type: "MIT" }
-  s.homepage = "https://github.com/angelos3lex/react-native-mqtt"
+  s.homepage = "https://github.com/SudoPlz/react-native-mqtt-angelos3lex"
   s.authors = package[:author][:name]
   s.summary = package[:description]
   s.source = { git: package[:repository][:url] }
@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.platform = :ios, "8.0"
 
   s.dependency "React"
+  s.dependency "MQTTClient"
 end
