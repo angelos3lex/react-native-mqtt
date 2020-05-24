@@ -1,0 +1,6 @@
+framework module Pods_rnmqttexampleTests {
+  umbrella header "Pods-rnmqttexampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

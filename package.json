@@ -1,6 +1,6 @@
 {
-  "name": "react-native-mqtt-angelos3lex",
-  "version": "0.4.6",
+  "name": "sp-react-native-mqtt",
+  "version": "0.4.25",
   "description": "MQTT client for react-native",
   "main": "index.js",
   "scripts": {
@@ -8,21 +8,43 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/notme001/react-native-mqtt.git"
+    "url": "git+https://github.com/SudoPlz/react-native-mqtt.git"
   },
   "keywords": [
     "mqtt",
     "reactnative",
     "iot"
   ],
-  "author": "Tuan PM <tuanpm@live.com> (http://tuanpm.net)",
+  "author": {
+    "name": "Ioannis Kokkinidis",
+    "email": "sudoplz@gmail.com",
+    "url": "https://www.linkedin.com/in/sudoplz"
+  },
   "contributors": [
-    { "name" : "Yury Korolev", "email" : "yury.korolev@gmail.com", "url" : "http://anjlab.com" },
-    { "name" : "Alexander Ustinov", "email" : "rusfearuth@gmail.com", "url" : "http://github.com/rusfearuth" }
-  ],
+    {
+      "name": "Yury Korolev",
+      "email": "yury.korolev@gmail.com",
+      "url": "http://anjlab.com"
+    },
+    {
+      "name": "Alexander Ustinov",
+      "email": "rusfearuth@gmail.com",
+      "url": "http://github.com/rusfearuth"
+    },
+    {
+      "name": "Tuan PM",
+      "email": "tuanpm@live.com",
+      "url": "http://tuanpm.net"
+    },
+    {
+      "name": "taoqf",
+      "email": "tao_qiufeng@126.com",
+      "url": "http://github.com/taoqf"
+    }
+  ],  
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/notme001/react-native-mqtt/issues"
+    "url": "https://github.com/SudoPlz/react-native-mqtt/issues"
   },
-  "homepage": "https://github.com/notme001/react-native-mqtt#readme"
+  "homepage": "https://github.com/SudoPlz/react-native-mqtt#readme"
 }

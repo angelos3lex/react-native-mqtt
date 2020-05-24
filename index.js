@@ -67,6 +67,9 @@ module.exports = {
     if(options.uri) {
       var pattern = /^((mqtt[s]?|ws[s]?)?:(\/\/)([0-9a-zA-Z_\.]*):?(\d+))$/;
       var matches = options.uri.match(pattern);
+      if (!matches) {
+        throw new Error(`Uri passed to createClient ${options.uri} doesn't match a known protocol (mqtt:// or ws://).`);
+      }
       var protocol = matches[2];
       var host = matches[4];
       var port =  matches[5];
@@ -112,6 +115,10 @@ module.exports = {
     }
 
     Mqtt.removeClient(client.clientRef);
-  }
+  },
+
+  disconnectAll: function () {
+    Mqtt.disconnectAll();
+  },
 
 };

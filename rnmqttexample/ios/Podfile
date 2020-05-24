@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'rnmqttexample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'MQTTClient'
+
+  # Pods for rnmqttexample
+
+  target 'rnmqttexample-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'rnmqttexampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

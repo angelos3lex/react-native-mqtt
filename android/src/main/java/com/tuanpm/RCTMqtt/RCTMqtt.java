@@ -1,6 +1,6 @@
 package com.tuanpm.RCTMqtt;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.Log;
 
 import com.facebook.react.bridge.Arguments;
@@ -65,7 +65,6 @@ public class RCTMqtt implements MqttCallbackExtended {
         defaultOptions.putString("user", "");
         defaultOptions.putString("pass", "");
         defaultOptions.putBoolean("will", false);
-        defaultOptions.putInt("protocolLevel", 4);
         defaultOptions.putString("willMsg", "");
         defaultOptions.putString("willtopic", "");
         defaultOptions.putInt("willQos", 0);
@@ -155,7 +154,7 @@ public class RCTMqtt implements MqttCallbackExtended {
                 /*
                  * http://stackoverflow.com/questions/3761737/https-get-ssl-with-android-and-
                  * self-signed-server-certificate
-                 * 
+                 *
                  * WARNING: for anybody else arriving at this answer, this is a dirty, horrible
                  * hack and you must not use it for anything that matters. SSL/TLS without
                  * authentication is worse than no encryption at all - reading and modifying

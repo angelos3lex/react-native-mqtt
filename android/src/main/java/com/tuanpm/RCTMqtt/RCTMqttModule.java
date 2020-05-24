@@ -4,7 +4,7 @@
 
 package com.tuanpm.RCTMqtt;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.Log;
 
 import com.facebook.react.bridge.Promise;
@@ -16,8 +16,7 @@ import com.facebook.react.bridge.ReadableMap;
 import java.util.HashMap;
 import java.util.UUID;
 
-public class RCTMqttModule
-        extends ReactContextBaseJavaModule
+public class RCTMqttModule extends ReactContextBaseJavaModule
 {
 
     private static final String TAG = "RCTMqttModule";
@@ -62,6 +61,16 @@ public class RCTMqttModule
     }
 
     @ReactMethod
+    public void disconnectAll()
+    {
+        if (clients != null && clients.size() > 0) {
+            for (RCTMqtt aClient : clients.values()) {
+                aClient.disconnect();
+            }
+        }
+    }
+
+    @ReactMethod
     public void subscribe(@NonNull final String clientRef,
                           @NonNull final String topic,
                           final int qos)
@@ -101,13 +110,13 @@ public class RCTMqttModule
     {
         clients.get(clientRef).reconnect();
     }
-    
+
     @ReactMethod
     public void isConnected(@NonNull final String clientRef, Promise promise)
     {
         promise.resolve(clients.get(clientRef).isConnected());
     }
-    
+
     private String createClientRef()
     {
         return UUID.randomUUID().toString();
@@ -121,4 +130,10 @@ public class RCTMqttModule
         }
         Log.d(TAG, message);
     }
+
+    @Override
+    public void onCatalystInstanceDestroy() {
+        disconnectAll();
+    }
+
 }

@@ -10,8 +10,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class RCTMqttPackage
-        implements ReactPackage
+public class RCTMqttPackage implements ReactPackage
 {
 
     @Override
