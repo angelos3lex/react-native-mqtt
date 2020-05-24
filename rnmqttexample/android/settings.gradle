@@ -1,5 +1,5 @@
 rootProject.name = 'rnmqttexample'
 
-include ':sp-react-native-mqtt'
-project(':sp-react-native-mqtt').projectDir = new File(rootProject.projectDir,  '../node_modules/sp-react-native-mqtt/android')
+include ':react-native-mqtt-angelos3lex'
+project(':react-native-mqtt-angelos3lex').projectDir = new File(rootProject.projectDir,  '../node_modules/react-native-mqtt-angelos3lex/android')
 include ':app'

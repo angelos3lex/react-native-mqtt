@@ -1,4 +1,4 @@
-import MQTT from 'sp-react-native-mqtt';
+import MQTT from 'react-native-mqtt-angelos3lex';
 import _ from 'underscore';
 
 

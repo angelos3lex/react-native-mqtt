@@ -360,7 +360,7 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8CD1048D378AF54EE541D513 /* Pods-rnmqttexample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnmqttexample.release.xcconfig"; path = "Target Support Files/Pods-rnmqttexample/Pods-rnmqttexample.release.xcconfig"; sourceTree = "<group>"; };
-		91DCA8345F70452889AC9CAE /* RCTMqtt.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTMqtt.xcodeproj; path = "../node_modules/sp-react-native-mqtt/ios/RCTMqtt.xcodeproj"; sourceTree = "<group>"; };
+		91DCA8345F70452889AC9CAE /* RCTMqtt.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTMqtt.xcodeproj; path = "../node_modules/react-native-mqtt-angelos3lex/ios/RCTMqtt.xcodeproj"; sourceTree = "<group>"; };
 		A2399D3022306A314FE6B203 /* Pods-rnmqttexampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnmqttexampleTests.debug.xcconfig"; path = "Target Support Files/Pods-rnmqttexampleTests/Pods-rnmqttexampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		B5BC22B3D925C95FD6EC7691 /* Pods_rnmqttexampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rnmqttexampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1344,7 +1344,7 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/sp-react-native-mqtt/ios",
+					"$(SRCROOT)/../node_modules/react-native-mqtt-angelos3lex/ios",
 				);
 				INFOPLIST_FILE = rnmqttexampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1371,7 +1371,7 @@
 				COPY_PHASE_STRIP = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/sp-react-native-mqtt/ios",
+					"$(SRCROOT)/../node_modules/react-native-mqtt-angelos3lex/ios",
 				);
 				INFOPLIST_FILE = rnmqttexampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1399,7 +1399,7 @@
 				DEAD_CODE_STRIPPING = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/sp-react-native-mqtt/ios",
+					"$(SRCROOT)/../node_modules/react-native-mqtt-angelos3lex/ios",
 				);
 				INFOPLIST_FILE = rnmqttexample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1422,7 +1422,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/sp-react-native-mqtt/ios",
+					"$(SRCROOT)/../node_modules/react-native-mqtt-angelos3lex/ios",
 				);
 				INFOPLIST_FILE = rnmqttexample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1451,7 +1451,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/sp-react-native-mqtt/ios",
+					"$(SRCROOT)/../node_modules/react-native-mqtt-angelos3lex/ios",
 				);
 				INFOPLIST_FILE = "rnmqttexample-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1485,7 +1485,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/sp-react-native-mqtt/ios",
+					"$(SRCROOT)/../node_modules/react-native-mqtt-angelos3lex/ios",
 				);
 				INFOPLIST_FILE = "rnmqttexample-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1519,7 +1519,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/sp-react-native-mqtt/ios",
+					"$(SRCROOT)/../node_modules/react-native-mqtt-angelos3lex/ios",
 				);
 				INFOPLIST_FILE = "rnmqttexample-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1553,7 +1553,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/sp-react-native-mqtt/ios",
+					"$(SRCROOT)/../node_modules/react-native-mqtt-angelos3lex/ios",
 				);
 				INFOPLIST_FILE = "rnmqttexample-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

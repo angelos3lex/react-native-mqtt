@@ -211,9 +211,9 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../../../../react-native/React/**",
-					"$(SRCROOT)/../../../node_modules/sp-react-native-mqtt/ios",
-					"$(SRCROOT)/../node_modules/sp-react-native-mqtt/ios",
-					"$(SRCROOT)/../../../../sp-react-native-mqtt/ios/**",
+					"$(SRCROOT)/../../../node_modules/react-native-mqtt-angelos3lex/ios",
+					"$(SRCROOT)/../node_modules/react-native-mqtt-angelos3lex/ios",
+					"$(SRCROOT)/../../../../react-native-mqtt-angelos3lex/ios/**",
 					"$(SRCROOT)/../../../ios/Pods/MQTTClient/**",
 				);
 				OTHER_LDFLAGS = (
@@ -231,9 +231,9 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../../../../react-native/React/**",
-					"$(SRCROOT)/../../../node_modules/sp-react-native-mqtt/ios",
-					"$(SRCROOT)/../node_modules/sp-react-native-mqtt/ios",
-					"$(SRCROOT)/../../../../sp-react-native-mqtt/ios/**",
+					"$(SRCROOT)/../../../node_modules/react-native-mqtt-angelos3lex/ios",
+					"$(SRCROOT)/../node_modules/react-native-mqtt-angelos3lex/ios",
+					"$(SRCROOT)/../../../../react-native-mqtt-angelos3lex/ios/**",
 					"$(SRCROOT)/../../../ios/Pods/MQTTClient/**",
 				);
 				OTHER_LDFLAGS = (
